@@ -4,6 +4,7 @@ public class VariableInitalizationExample {
     public static void main(String[] args){
         int value;
         value = 10;
+        //변수 선언과 동시에 초기화가능
         // 변수 선언(변수명 당 최초 한번), 선언을 할 때 데이터 타입 지정!(int는 정수 타입,오로지 정수만)
         // 변수 사용 방법 2가지: 읽기(read), 쓰기 (write)
         /*
