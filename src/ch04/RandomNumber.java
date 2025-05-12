@@ -21,3 +21,7 @@ public class RandomNumber {
 
     }
 }
+
+// println(소괄호); 메소드
+// double V = Math.random();
+// System.out.println(V);
