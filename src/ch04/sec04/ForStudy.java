@@ -15,7 +15,7 @@ public class ForStudy {
     실행순서 ( 0번은 최초 1회만 실행)
     0 > 1 > 2 > 3
       > 1 > 2 > 3
-      ....반복이 계속되는데 1번 조건식에서 false가 되는 순간 for문을 빠져나온다.
+      ....true 일동안 반복이 계속되는데 1번 조건식에서 false가 되는 순간 for문을 빠져나온다.
      */
     public static void main(String[] args) {
         int i1 = 0;
@@ -25,7 +25,7 @@ public class ForStudy {
         System.out.println(i1++);
         System.out.println(i1++);
         System.out.println(i1++);
-        System.out.println(i1++);
+        System.out.println(i1);
 
         System.out.println("-----------------------");
 

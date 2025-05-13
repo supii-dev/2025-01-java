@@ -9,11 +9,17 @@ public class LogicalOperatorExample {
         System.out.printf(" 5 > 0 && 5 > 2 : %b\n" , 5 > 0 && 5 > 2);
         System.out.printf(" 5 > 0 && 5 < 2 : %b\n" , 5 > 0 && 5 < 2);
         System.out.printf(" 5 > 0 && 5 < 2 && 10 > 2 : %b\n" , 5 > 0 && 5 < 2);
-        // && 앤드연산자 ture && true = true   false && true = false 하나라도 펄스면 펄스
+        // 1) 5 > 0 >> true
+        // 2) 5 < 2 >> false
+        // 3) true && false >> false
+        // && 앤드연산자 불린타입만 올수잇슴 ture && true = true   false && true = false 하나라도 펄스면 펄스
+        // 펄스가 나올 가능성이 높은걸 앞쪽에 배치
         System.out.println();
         System.out.printf("5 > 0 || 5 < 2 : %b\n", 5 > 0 || 5 < 2);
+        // 1) 5 > 0 >> true
         System.out.printf("5 < 0 || 5 < 2 : %b\n", 5 < 0 || 5 < 2);
         // || OR 연산자는 전부 펄스여야 펄스 하나라도 트루면 트루
+        // 트루가 나올 가능성이 높은걸 앞쪽에 배치
         System.out.println();
         System.out.printf("!(5 < 0 || 5 < 2) : %b\n", !(5 < 0 || 5 < 2 ));
         System.out.printf("!false : %b\n", !false);
