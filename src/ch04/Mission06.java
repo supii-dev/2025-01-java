@@ -1,6 +1,6 @@
 package ch04;
 
-public class Missin06 {
+public class Mission06 {
     public static void main(String[] args) {
         // 1~ 100 까지 숫자출력
 

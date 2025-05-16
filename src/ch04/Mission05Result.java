@@ -1,25 +1,15 @@
 package ch04;
 
-public class Missin05 {
+public class Mission05Result {
     public static void main(String[] args) {
-        int starCount = (int) (Math.random() * 6.0) + 2; // (1)2~7사이 랜덤값
+        int starCount = (int) (Math.random() * 100.0) + 1; // (1)2~7사이 랜덤값
         System.out.printf("starCount: %d\n", starCount );
-        for(int i = 0 ; i < starCount; i++){
+        for(int i = 0 ; i < 1; i++){
             System.out.print("*");
-        }
-        //starCount = 3;
-        //***
-
-        //starCount = 7;
-        //*******
-
-        //starCount = 2;
-        //**
-
-
 
         }
     }
+}
 
 //System.out.print("안녕");     // 줄바꿈 없이 출력
 //System.out.println("안녕");  // 출력 후 줄바꿈

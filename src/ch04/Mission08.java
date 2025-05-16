@@ -1,6 +1,6 @@
 package ch04;
 
-public class Missin08 {
+public class Mission08 {
     public static void main(String[] args) {
 //        int sum = 0;
 //        sum = sum + 1; // 0 + 1 = 1
