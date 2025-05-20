@@ -15,7 +15,6 @@ public class Mission01 {
         arr[2] = 300;
         arr[3] = 400;
         arr[4] = 500;
-
          */
 
 
@@ -23,3 +22,6 @@ public class Mission01 {
         //[100,200,300,400,500]
         }
     }
+
+
+    //length 배열의 크기 방갯수 공간갯수
